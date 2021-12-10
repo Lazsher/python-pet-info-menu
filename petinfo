@@ -1,0 +1,9 @@
+pets = []
+try:
+    newName = input("Enter pet name:")
+    newAge = int(input("Enter pet age:"))
+except ValueError:
+    print("Input error. You did not enter a correct age.")
+except SyntaxError:
+    print("Invalid input.")
+ 
